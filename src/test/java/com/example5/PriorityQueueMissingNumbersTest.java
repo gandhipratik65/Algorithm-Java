@@ -10,6 +10,8 @@ class PriorityQueueMissingNumbersTest {
 
     @Test
     void setPriorityQueueMissingNumbersTest(){
-        System.out.println(priorityQueueMissingNumbers.firstMissingPositive(new int[]{-1,2,3}));
+       // System.out.println(priorityQueueMissingNumbers.firstMissingPositive(new int[]{-1,2,3}));
+        System.out.println(priorityQueueMissingNumbers.firstMissingPositive(new int[]{3,4,-1,1}));
+
     }
 }
